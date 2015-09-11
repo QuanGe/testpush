@@ -55,7 +55,7 @@ public class MyResource {
         //List<String> tokens = new ArrayList<String>();
         //tokens.add(address);
         String[] tokens= address.split("\\.");
-        String certificatePath = "/Users/administrator/Desktop/aps_push.p12";
+        String certificatePath = "/Users/zhangruquan/Desktop/aps_push.p12";
         
         String certificatePassword = "123456";//此处注意导出的证书密码不能为空因为空密码会报错
         boolean sendCount = true;
